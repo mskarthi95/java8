@@ -10,3 +10,4 @@ List<String> list = Arrays.asList("Gza","Gzb","Gox","Elephant");
 		String min = list.stream().min(Comparator.comparing(String::valueOf)).get();
 		System.out.println("Min:"+ min);
 ```
+# Stream Max
